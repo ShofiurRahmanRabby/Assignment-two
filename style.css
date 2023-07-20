@@ -98,5 +98,17 @@ nav{
 .banner-img-container img{
     width: 100%;
 }
-/* baneer end */
+/* banner end */
 /* we are here */
+.we-are{
+    background: linear-gradient(
+      90deg,
+      rgba(255, 66, 165, 0.03) 0%,
+      rgba(255, 66, 165, 0.03) 100%
+    );
+}
+.we-are-gamer-man{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
