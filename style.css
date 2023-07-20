@@ -125,7 +125,7 @@ nav{
 .we-are-gamer-discretion{
     text-align: right;
 }
-.btn{
+.btn-m{
     padding: 21px 40px;
     border: none;
     border-radius: 48px;
@@ -283,3 +283,179 @@ nav{
     bottom: 0;
 }
 /* Gamer overview end */
+.small-available{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 165, 0.03) 0%,
+        rgba(255, 66, 165, 0.03) 100%
+      );
+}
+.card-box-a{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+    height: 5rem;
+}
+.card-box-b{
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+}
+
+/* footer start */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background: #0b0223;
+}
+.footer-lago {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-lago h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-container {
+    width: 40%;
+
+}
+.footer-details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+.footer-sociallink {
+    display: flex;
+    justify-content: center;
+}
+.footer-sociallink a {
+    width: 80px;
+    height: 80px;
+}
+.footer-team-condition{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.footer-team-condition a{
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-copy-right{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+    header,
+    main {
+      padding: 0.5rem 3rem;
+    }
+    nav,
+    ul{
+      flex-direction: column;
+    }
+    .band-lego{
+      justify-content: center;
+    }
+    .banner-section{
+      flex-direction: column-reverse;
+    }
+    .btn-m{
+      display: flex;
+      justify-content: space-around;
+    }
+    .log-btn,
+    .r-btn {
+      padding: 16px 20px;
+    }
+    .banner-img-container img{
+      margin: 2rem 0;
+    }
+  
+    .we-are-gamer-man{
+      flex-direction: column;
+    }
+    .we-are-gamer-discretion{
+      text-align: center;
+    }
+    .gamer_title {
+      font-size: 30px;
+    }
+    .game_available_container {
+      display: flex;
+    }
+    .game_available_container {
+      display: none;
+    }
+  
+    .small_device_game_available {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  
+      justify-content: space-between;
+    }
+    .card img {
+      width: 40%;
+    }
+    .card:hover {
+      color: red;
+    }
+    .card p {
+      font-size: 0.5rem;
+    }
+  
+    .footer_container {
+      width: 70%;
+    }
+    .footer_details {
+      display: grid;
+      gap: 1px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .footer_details {
+      font-size: 0.1px;
+    }
+    .section-content h2 {
+      font-size: 1.5rem;
+    }
+    .game-overview-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .overview-title {
+      font-size: 1.5rem;
+    }
+    .over-view-description {
+      margin: 2rem 0;
+    }
+  }
