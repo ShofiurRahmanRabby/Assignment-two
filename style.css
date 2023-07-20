@@ -162,6 +162,8 @@ nav{
     -webkit-text-fill-color: transparent;
 }
 .video_content a {
+    color: #4eb9ef;
+    font-style: italic;
     text-decoration: none;
 }
 .section-content p {
@@ -237,3 +239,47 @@ nav{
     line-height: 1;
 }
 /* scend section end */
+/* Gamer overview start */
+.game-overview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 50px;
+}
+  
+.overview-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.over-view-description {
+    color: #534c64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.game-overview-item:first-child {
+    flex-basis: 40%;
+}
+.game-overview-item:last-child {
+    flex-basis: 50%;
+}
+.game-overview-thumb {
+    position: relative;
+}
+  
+.game-overview-thumb {
+    padding: 0px 0 64px 94px;
+}
+.game-overview-thumb .img-large {
+    /* position: relative; */
+    width: 100%;
+}
+.img-small {
+    max-width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* Gamer overview end */
