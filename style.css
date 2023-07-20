@@ -122,16 +122,16 @@ nav{
     -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;
 }
-.we-are-gamer-discription{
+.we-are-gamer-discretion{
     text-align: right;
 }
-.we_are_gamer_btn{
+.btn{
     padding: 21px 40px;
     border: none;
     border-radius: 48px;
     background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
-.we_are_gamer_discription h3{
+.we-are-gamer-discretion h3{
     color: #534c64;
     line-height: 45px; /* 187.5% */
 }
